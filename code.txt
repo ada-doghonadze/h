@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mtavari_gverdi">
+        
+        <div class="marcxena">
+            <h3 class="satauri">
+                Live the life you've always wanted to live.
+            </h3>
+            <p class="text">
+                LIFE IS SHORT AND THE WORLD IS HUGE, SO GET STARTED NOW!
+            </p>
+            <div class="date">
+                <div class="lildiv1">
+                    <img src="./images/Vector.svg" alt="vector">
+                    <div class="tarigi">
+                        <p>Date</p>
+                        <p>25-8-22</p>
+                    </div>
+                    <img src="./images/isari.svg" alt="vector2">
+                </div>
+                <div class="line"></div>
+                <div class="lildiv2">
+                    <img src="./images/pin.svg" alt="pin">
+                    <div>
+                        <p>Location</p>
+                        <p>Mumbai, India</p>
+                    </div>
+                    <img src="./images/isari.svg" alt="isari">
+                </div>
+                <div class="lildiv3">
+                    <img src="./images/lupa.svg" alt="lupa">
+                </div>
+            </div>
+        </div>
+        <div class="marjvena">
+            <img src="./images/gogona.svg" alt="gogona">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+*{
+    text-decoration: none;
+    font-family: 'Istok Web', sans-serif;
+}
+.satauri{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+}
+.mtavari_gverdi{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    margin-top: 70px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+.date{
+    margin-top: 40px;
+}
+.marcxena{
+    width: 568px;
+    height: 500px;
+}
+.date{
+    display: flex;
+    position: absolute;
+    border-radius: 63px;
+    justify-content: space-around;
+    align-items: center;
+    width: 568px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.lildiv1{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.lildiv1 p{
+    margin: 0;
+    padding: 0;
+}
+.lildiv2{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.lildiv2 p{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    width: 2px;
+    background: gray;
+    border-radius: 10%;
+    height: 50%;
+}
